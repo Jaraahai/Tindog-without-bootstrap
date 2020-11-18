@@ -12,8 +12,8 @@
     <!-- Fonts -->
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    
     <!-- Font Awesome -->
 
     <script src="https://kit.fontawesome.com/975c6a151a.js" crossorigin="anonymous"></script>
@@ -52,73 +52,119 @@
                 <button type="button" class="button2"><i class="fab fa-google-play"></i> Download</button>
             </div>
             <div class="title-heading">
-                <img src="images/iphone6.png" alt="TinDog-img">
+                <img class="title-image" src="images/iphone6.png" alt="TinDog-img">
             </div>
         </div>
     </section>
 
     <!-- Feature Section -->
     <section id="features">
-        <h3>Easy to use</h3>
-        <p>So easy to use, even your dog could do it.</p>
-        <h3>Elite Clientele</h3>
-        <p>We have all the dogs, greatest dogs.</p>
-        <h3>Guaranteed to work</h3>
-        <p>Find the love of your dog's life or your money back.</p>
+        <div>
+            <ul class="my-row">
+                <li>
+                    <i class="fas fa-heart fa-4x feature-icon"></i>
+                    <h3>Easy to use</h3>
+                    <p>So easy to use, even your dog could do it.</p>
+                </li>
+                <li>
+                    <i class="fas fa-bullseye fa-4x feature-icon"></i>
+                    <h3>Elite Clientele</h3>
+                    <p>We have all the dogs, greatest dogs.</p>
+                </li>
+                <li>
+                    <i class="fas fa-envelope fa-4x feature-icon"></i>
+                    <h3>Guaranteed to work</h3>
+                    <p>Find the love of your dog's life or your money back.</p>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <!-- Testimonials Section -->
     <section id="testimonials">
-        <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-        <img src="images/dog-img.jpg" alt="dog-img">
-        <em>Pebbles, New York</em>
+        <div class="container-fluid">
+            <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+            <img class="testimonials-image" src="images/dog-img.jpg" alt="dog-img">
+            <em>Pebbles, New York</em>
+        </div>
     </section>
 
     <!-- Press Section -->
     <section id="press">
-        <img src="images/TechCrunch.png" alt="TechCrunch-img">
-        <img src="images/tnw.png" alt="tnw-img">
-        <img src="images/bizinsider.png" alt="Business-insider-img">
-        <img src="images/mashable.png" alt="Mashable-img">
+        <div>
+            <ul class="my-row">
+                <li>
+                    <img src="images/TechCrunch.png" alt="TechCrunch-img">
+                </li>
+                <li>
+                    <img src="images/tnw.png" alt="tnw-img">
+                </li>
+                <li>
+                    <img src="images/bizinsider.png" alt="Business-insider-img">
+                </li>
+                <li>
+                    <img src="images/mashable.png" alt="Mashable-img">
+                </li>
+            </ul>
+        </div>
     </section>
 
     <!-- Pricing Section -->
     <section id="pricing">
-        <h2>A Plan for Every Dog's Needs</h2>
-        <p>Simple and affordable price for you and your dog.</p>
-        <h3>Chihuahua</h3>
-        <h2>Free</h2>
-        <p>5 Matches Per Day</p>
-        <p>10 Messages Per Day</p>
-        <p>Unlimited App Usage</p>
-        <button type="button">Sign Up</button>
-        <h3>Labrador</h3>
-        <h2>$49 / Mo</h2>
-        <p>Unlimited Matches</p>
-        <p>Unlimited Messages</p>
-        <p>Unlimited App Usage</p>
-        <button type="button">Sign Up</button>
-        <h3>Mastiff</h3>
-        <h2>$99 / Mo</h2>
-        <p>Priority Listing</p>
-        <p>Unlimited Matches</p>
-        <p>Unlimited Messages</p>
-        <p>Unlimited App Usage</p>
-        <button type="button">Sign Up</button>
+        <div class="container-fluid">
+      
+          <h2 style="text-align: center;">A Plan for Every Dog's Needs</h2>
+          <p style="text-align: center;">Simple and affordable price plans for your and your dog.</p>
+            <div class="columns">
+                <div class="price">
+                <li class="header">Chihuahua</li>
+                <li class="grey">Free</li>
+                <li>5 Matches Per Day</li>
+                <li>10 Messages Per Day</li>
+                <li> Unlimited App Usage</li>
+                <li class="grey"><a= href="" class="button">Sign Up</li>
+                </div>
+            </div> 
+      
+            <div class="columns">
+                <div class="price">
+                <li class="header" style="background-color: #ff4c68;">Labrador</li>
+                <li class="grey">$49 / mo</li>
+                <li>Unlimited Matches</li>
+                <li>Unlimited Messages</li>
+                <li>Unlimited App Usage</li>
+                <li class="grey"><a= href="" class="button">Sign Up</li>
+                </div>
+            </div>
+      
+            <div class="columns">
+                <div class="price">
+                <li class="header">Mastiff</li>
+                <li class="grey">$99 / mo</li>
+                <li>Pirority Listing</li>
+                <li>Unlimited Matches</li>
+                <li>Unlimited Messages</li>
+                <li>Unlimited App Usage</li>
+                <li class="grey"><a= href="" class="button">Sign Up</li>
+                </div>
+            </div>
     </section>
 
     <!-- CTA Section -->
     <section id="cta">
-        <h3>Find The True Love of Your Dog's Life Today</h3>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
+        <div class="container-fluid">
+            <h3>Find The True Love of Your Dog's Life Today</h3>
+            <button type="button" class="button1"><i class="fab fa-apple"></i> Download</button>
+            <button type="button" class="button2"><i class="fab fa-google-play"></i> Download</button>
+        </div>
     </section>
     
     <!-- Footer Section -->
     <section id="footer">
-        <p>© Copyright 2020 Jaraahai</p>
+        <div class="container-fluid">
+            <p>© Copyright 2020 Jaraahai</p>
+        </div>
     </section>
-    
 
 </body>
 </html>

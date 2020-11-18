@@ -1,5 +1,7 @@
 body {
+  overflow-x: hidden;
   margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -13,8 +15,8 @@ li {
 
 .container-fluid {
   padding: 7% 15%;
-  background-color: #ff2e63;
   line-height: 1.5;
+  text-align: center;
 }
 
 /* Navigation Bar Section */
@@ -40,7 +42,11 @@ li {
 
 #title {
   color: #fff;
-  position: relative;
+  background-color: #ff4c68;
+}
+
+#title .container-fluid {
+  padding: 3% 15%;
 }
 
 .title-heading {
@@ -48,18 +54,25 @@ li {
   font-size: 1.5rem;
 }
 
+.title-image {
+}
+
+.big-heading {
+  margin: 30px 0 0;
+}
+
 .button1 {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  border-radius: 8px;
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: 0.2rem;
+  border-radius: 0.5rem;
   color: #fff;
   background-color: #343a40;
   border-color: #343a40;
+  margin: 3% 3% 5% 0;
 }
 .button1:hover {
   color: #fff;
@@ -71,11 +84,10 @@ li {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  border-radius: 8px;
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: 0.2rem;
+  border-radius: 0.5rem;
   color: #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
@@ -89,5 +101,110 @@ li {
 /* Feature Section */
 
 #features {
+  position: relative;
+  padding: 5%;
+}
+
+.my-row {
+  display: table;
+  width: 100%;
+  text-align: center;
+  margin: 0%;
+}
+
+.my-row li {
+  display: table-cell;
+}
+
+#features .feature-icon {
+  color: #ff2e63;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ff2e63;
+  font-size: 1.5rem;
+}
+
+#testimonials .container-fluid {
+  padding: 3% 7% 7%;
+}
+
+.testimonials-image {
+  border-radius: 100%;
+  width: 10%;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ff2e63;
+  padding: 0 0 1.5rem;
+}
+
+/* Pricing Section */
+
+#pricing {
+}
+
+#pricing .container-fluid {
   background-color: #fff;
 }
+
+.columns {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  padding: 8px;
+}
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #ff4c68;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+/* CTA Section */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
